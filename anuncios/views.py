@@ -3,6 +3,5 @@ from django.http import HttpResponse
 
 
 def home(request):
-    # TODO logica view
-    return HttpResponse('Olá mundo')
+    return render(request, 'home.html')
 
